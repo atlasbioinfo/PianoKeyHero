@@ -1,0 +1,68 @@
+:root {
+  --color-bg: #FFF8E7;
+  --color-primary: #4A90D9;
+  --color-secondary: #7B68EE;
+  --color-correct: #4CAF50;
+  --color-wrong: #FF6B6B;
+  --color-coin: #FFD700;
+  --color-streak: #FF8C00;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-white: #ffffff;
+
+  --btn-1: #FFB3BA;
+  --btn-2: #BAE1FF;
+  --btn-3: #BAFFC9;
+  --btn-4: #FFFFBA;
+
+  --level-1: #4CAF50;
+  --level-2: #2196F3;
+  --level-3: #FF9800;
+  --level-4: #9C27B0;
+  --level-5: #E91E63;
+  --level-6: #FFD700;
+
+  --radius: 12px;
+  --radius-lg: 20px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+}
